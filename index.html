@@ -9,17 +9,17 @@
   <body>
 
     <div class="container">
-      <h1>Refresh Me</h1>
+      <h1>Dispute Settler</h1>
 
       <div class="container flex">
         <div class="dice">
           <p class="player-one-name"></p>
-          <img class="img1" src="">
+          <img class="img1" id="dice-animate-none" src="">
         </div>
   
         <div class="dice">
           <p class="player-two-name"></p>
-          <img class="img2" src="">
+          <img class="img2" id="dice-animate-none" src="">
         </div>
       </div>
       
@@ -27,19 +27,20 @@
         <p class="who-won"></p>
       </div>
 
+      <button class="reload-btn" onclick="rollAgain()">
+        Roll Again
+    </button>
+
       <button class="reload-btn" onclick="playAgain()">
         Play Again
     </button>
     </div>
-
-   
-
-    <script src="./index.js"></script>
-
 
   </body>
 
   <footer>
     Developed by Gerrard J.S Barrows
   </footer>
+
+  <script src="./index.js"></script>
 </html>
